@@ -11,7 +11,7 @@
 .hand {
   height: 90vh;
   width: 700px;
-  background-image: url("../images/iceLady.png");
+  background-image: url("images/iceLady.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,7 @@
 }
 
 #eis {
-  background-image: url("../images/coffee.png");
+  background-image: url("images/coffee.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +75,7 @@
 }
 
 #fleck {
-  background-image: url("../images/makrovectorFreepic.jpg");
+  background-image: url("images/makrovectorFreepic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
