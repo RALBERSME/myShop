@@ -6,14 +6,14 @@
 
 .container {
   height: 100vh;
-  background-image: url("../images/ice-creamGirl.png");
+  background-image: url("images/ice-creamGirl.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
 }
 .bubble {
-  background-image: url("../images/bubble.png");
+  background-image: url("images/bubble.png");
   width: 350px;
   height: 314px;
   background-size: cover;
