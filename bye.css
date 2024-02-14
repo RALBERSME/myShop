@@ -7,7 +7,7 @@ html {
   height: 100vh;
 }
 body {
-  background-image: url("../images/bye.jpg");
+  background-image: url("images/bye.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
