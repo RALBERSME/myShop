@@ -7,7 +7,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   height: 100vh;
-  background-image: url("../images/rain.jpg");
+  background-image: url("images/rain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,7 +42,7 @@ p {
 .bild {
   height: 204px;
   width: 250px;
-  background-image: url("../images/fist.png");
+  background-image: url("images/fist.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
