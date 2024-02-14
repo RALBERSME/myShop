@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100vh;
+  background-image: url("../images/rain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  z-index: 1;
+}
+p {
+  padding: 5px;
+  font-size: 1.25rem;
+}
+.container {
+  font-size: 1rem;
+  height: 100vh;
+  width: 100wv;
+  position: absolute;
+  top: 13%;
+  left: 30%;
+}
+.message {
+  font-weight: 200;
+  padding: 15px;
+  background-color: rgb(230, 214, 214);
+  border: black solid 6px;
+  border-style: inset;
+  outline: 0.5rem inset rgb(170, 53, 49);
+  border-radius: 15%;
+  border-style: double;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.bild {
+  height: 204px;
+  width: 250px;
+  background-image: url("../images/fist.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fight 3s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  z-index: 3;
+}
+
+@keyframes fight {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(2) rotate(25deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
