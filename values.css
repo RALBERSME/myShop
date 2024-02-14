@@ -45,7 +45,7 @@ p {
 
 .image {
   height: 60vh;
-  background-image: url("../images/belief.jpg");
+  background-image: url("images/belief.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
