@@ -10,7 +10,7 @@ body {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: 100vh;
-  background-image: url("../images/mirror.jpg");
+  background-image: url("images/mirror.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
