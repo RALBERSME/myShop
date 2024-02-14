@@ -53,7 +53,7 @@ table {
   text-decoration: underline;
 }
 .platsch {
-  background-image: url("../images/platsch.png");
+  background-image: url("images/platsch.png");
   width: 29.5%;
   height: 50vh;
   background-size: cover;
