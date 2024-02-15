@@ -40,10 +40,13 @@ button {
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.secondBtn {
+  background-color: rgb(34, 161, 140);
+  border-color: rgb(34, 161, 140);
+}
 
 .final {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
 }
 
 .right {
