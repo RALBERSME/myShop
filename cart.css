@@ -241,7 +241,7 @@ li a {
   justify-content: space-around;
   align-items: center;
   padding: 10px 0;
-  border-bottom: 1px solid rgb(70, 17, 178);
+  border-bottom: 1px solid #4610b1;
 }
 
 .product ion-icon {
@@ -317,4 +317,31 @@ li a {
 }
 .auctionBody {
   background-color: rgb(241, 241, 156);
+}
+
+.zero {
+  animation: animate 5s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    color: black;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+
+    background-color: #4610b1;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(70, 16, 177, 0.5) 0px 3px 3px;
+  }
 }
