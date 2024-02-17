@@ -132,3 +132,20 @@ section .box h2 span:nth-child(2) {
   background-size: contain;
   background-position: center;
 }
+
+#funnySong {
+  margin-top: 2.5px;
+  margin-left: 3rem;
+  padding: 2.5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-style: italic;
+}
+#funnySong:hover {
+  background-color: rgb(210, 178, 183);
+  color: white;
+  border-color: wheat;
+}
