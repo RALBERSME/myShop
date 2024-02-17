@@ -1,17 +1,3 @@
-const animal = document.querySelector(".banner");
-function playSong() {
-  const music = new Audio("parrots.mp3");
-  music.play();
-}
-function playCatsong() {
-  const music = new Audio("cat.mp3");
-  music.play();
-}
-animal.addEventListener("click", () => {
-  playSong();
-  playCatsong();
-});
-
 let carts = document.querySelectorAll(".add-cart");
 
 let products = [

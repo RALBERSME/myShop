@@ -56,3 +56,13 @@ button:hover {
   border-color: wheat;
   font-weight: bold;
 }
+
+.animals {
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: yellow;
+  border-color: rgba(0, 0, 0, 0.7);
+}

@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>myShop</title>
+    <script>
+      function playAnimals() {
+        const cat = new Audio("cat.mp3");
+        cat.play();
+        const parrot = new Audio("parrots.mp3");
+        parrot.play();
+      }
+    </script>
   </head>
   <body>
     <div class="banner">
       <marquee scrollamount="15" scrolldelay="5" height="100%">
-        <pre><em>Welcome to myShop - the best online shop with the best offers ever! Click here on the banner first for the atomsphere and then click on the shop`s door knob to enter.</em>
+        <pre><em>Welcome to myShop - the best online shop with the best offers ever! Click on the shop`s door knob to enter.</em>
 </pre>
       </marquee>
     </div>
+    <button class="animals" onclick="playAnimals()">
+      Click here to add sound for a nice atmosphere
+    </button>
 
     <div class="container" onclick="window.location.href='info.html'"></div>
 
